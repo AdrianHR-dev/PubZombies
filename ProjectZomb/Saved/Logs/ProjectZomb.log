@@ -1306,3 +1306,454 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.09.26-13.19.33:681][477]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
 [2026.09.26-13.19.33:681][477]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
 [2026.09.26-13.19.33:681][477]LogShaderCompilers: Display: ================================================
+[2026.09.26-13.21.43:982][868]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 331.408783
+[2026.09.26-13.21.44:981][871]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.26-13.21.44:981][871]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 332.074890, Update Interval: 335.373383
+[2026.09.26-13.22.19:958][941]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2026.09.26-13.22.27:199][941]LogSlate: Window 'Delete Assets' being destroyed
+[2026.09.26-13.22.27:511][941]LogUObjectGlobals: Force Deleting 5 Package(s):
+	Asset Name: /Game/Blueprint/EnemyBlueprints/BPI_RoundManager.BPI_RoundManager
+	Asset Type: Blueprint
+	Asset Name: /Game/Blueprint/EnemyBlueprints/BPI_Enemy.BPI_Enemy
+	Asset Type: Blueprint
+	Asset Name: /Game/Blueprint/EnemyBlueprints/BP_RoundManager.BP_RoundManager
+	Asset Type: Blueprint
+	Asset Name: /Game/Blueprint/EnemyBlueprints/BP_EnemySpawn.BP_EnemySpawn
+	Asset Type: Blueprint
+	Asset Name: /Game/Blueprint/EnemyBlueprints/BP_Enemy.BP_Enemy
+	Asset Type: Blueprint
+[2026.09.26-13.22.28:177][941]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2026.09.26-13.22.28:540][941]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2026.09.26-13.22.28:564][941]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2026.09.26-13.22.28:585][941]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2026.09.26-13.22.28:717][941]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/aherr/Documents/Unreal Projects/ProjectZomb/Saved/SourceControl/UncontrolledChangelists.json
+[2026.09.26-13.22.29:724][982]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2026.09.26-13.22.29:829][983]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2026.09.26-13.22.33:692][113]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2026.09.26-13.22.34:054][113]LogSlate: Last resort fallback font was requested. Font: '<unknown>', Character: '<unknown>'
+[2026.09.26-13.22.34:100][113]LogSlate: Took 0.043665 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2026.09.26-13.22.34:191][113]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2026.09.26-13.22.36:220][113]LogSlate: Window 'Delete Assets' being destroyed
+[2026.09.26-13.22.38:852][206]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2026.09.26-13.22.40:778][206]LogSlate: Window 'Delete Assets' being destroyed
+[2026.09.26-13.22.41:054][206]LogUObjectGlobals: Force Deleting 3 Package(s):
+	Asset Name: /Game/Blueprint/SceneActors/BPI_Door.BPI_Door
+	Asset Type: Blueprint
+	Asset Name: /Game/Blueprint/SceneActors/BP_WallWeapon.BP_WallWeapon
+	Asset Type: Blueprint
+	Asset Name: /Game/Blueprint/SceneActors/BP_Door.BP_Door
+	Asset Type: Blueprint
+[2026.09.26-13.22.41:255][206]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2026.09.26-13.22.41:388][206]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2026.09.26-13.22.41:410][206]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2026.09.26-13.22.41:432][206]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2026.09.26-13.22.41:468][206]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/aherr/Documents/Unreal Projects/ProjectZomb/Saved/SourceControl/UncontrolledChangelists.json
+[2026.09.26-13.23.04:384][187]LogPSOHitching: Encountered 50 PSO creation hitches so far (36 graphics, 14 compute). 0 of them were precached.
+[2026.09.26-13.23.21:430][884]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2026.09.26-13.23.21:432][884]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2026.09.26-13.23.21:916][884]LogStreaming: Display: FlushAsyncLoading(330): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.26-13.23.26:087][884]LogStaticMesh: Display: Building static mesh PhAT_FloorBox (Required Memory Estimate: 0.024887 MB)...
+[2026.09.26-13.23.26:088][884]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/PhAT_FloorBox.PhAT_FloorBox
+[2026.09.26-13.23.27:275][884]LogSlate: Took 0.001072 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2026.09.26-13.23.28:323][884]LogMeshUtilities: Finished distance field build in 2.2s - 126x126x21 sparse distance field, 0.6Mb total, 0.0Mb always loaded, 100% occupied, 0 triangles, PhAT_FloorBox
+[2026.09.26-13.23.29:653][894]LogTexture: Display: Building textures: /Game/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_D.T_ML_Rubber_Blue_01_D (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 46.083323 MB), EncodeSpeed: Fast
+[2026.09.26-13.23.29:673][894]LogTexture: Display: Building textures: /Game/Characters/Mannequin_UE4/Textures/T_UELogo_N_TGA.T_UELogo_N_TGA (TFO_BC5, 512x512 x1x1x1) (Required Memory Estimate: 82.499988 MB), EncodeSpeed: Fast
+[2026.09.26-13.23.29:674][894]LogTexture: Display: Building textures: /Game/Characters/Mannequin_UE4/Textures/T_UE4_Mannequin_MAT_MASKA.T_UE4_Mannequin_MAT_MASKA (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 80.083323 MB), EncodeSpeed: Fast
+[2026.09.26-13.23.29:888][902]LogTexture: Display: Building textures: /Game/Characters/Mannequin_UE4/Textures/T_UE4_Mannequin__normals.T_UE4_Mannequin__normals (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 292.499988 MB), EncodeSpeed: Fast
+[2026.09.26-13.23.32:816][  5]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] Message node  Invalid Message Node  has an invalid interface.
+[2026.09.26-13.23.32:828][  5]LogBlueprint: Warning: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] Could not find a variable named "cost" in '/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter'.
+Make sure '/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter' has been compiled for  Get cost
+[2026.09.26-13.23.32:829][  5]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] Can't connect pins  Object  and  Hit Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2026.09.26-13.23.32:829][  5]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] Can't connect pins  Object  and  Hit Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2026.09.26-13.23.32:829][  5]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] Can't connect pins  As BP Door  and  Target : Object Reference is not compatible with Object Reference.
+[2026.09.26-13.23.32:830][  5]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] Can't connect pins  Target  and  As BP Door : Object Reference is not compatible with Object Reference.
+[2026.09.26-13.23.32:830][  5]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] Could not find a function named "OpenDoor" in 'BP_FirstPersonCharacter'.
+Make sure 'BP_FirstPersonCharacter' has been compiled for  Invalid Message Node
+[2026.09.26-13.23.32:831][  5]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] Can't connect pins  Curr Weapon  and  As BP Wall Weapon : Object Reference is not compatible with Object Reference.
+[2026.09.26-13.23.32:832][  5]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] Can't connect pins  Object  and  Hit Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2026.09.26-13.23.32:832][  5]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] Can't connect pins  Hit Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2026.09.26-13.23.32:832][  5]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] Can't connect pins  Object  and  Hit Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2026.09.26-13.23.32:832][  5]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] Can't connect pins  As BP Wall Weapon  and  Curr Weapon : Object Reference is not compatible with Object Reference.
+[2026.09.26-13.23.32:833][  5]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] Can't connect pins  Hit Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2026.09.26-13.23.32:842][  5]LogBlueprint: Warning: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] Could not find a variable named "weapon" in '/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter'.
+Make sure '/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter' has been compiled for  Get weapon
+[2026.09.26-13.23.32:852][  5]LogBlueprint: Warning: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\Blueprint\Widgets\W_PlayerUI.uasset: [Compiler] Could not find a variable named "cost" in '/Game/Blueprint/Widgets/W_PlayerUI.W_PlayerUI'.
+Make sure '/Game/Blueprint/Widgets/W_PlayerUI.W_PlayerUI' has been compiled for  Get cost
+[2026.09.26-13.23.32:852][  5]LogBlueprint: Warning: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\Blueprint\Widgets\W_PlayerUI.uasset: [Compiler] Could not find a variable named "weapon" in '/Game/Blueprint/Widgets/W_PlayerUI.W_PlayerUI'.
+Make sure '/Game/Blueprint/Widgets/W_PlayerUI.W_PlayerUI' has been compiled for  Get weapon
+[2026.09.26-13.23.32:861][  5]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\Blueprint\WeaponBlueprints\BP_Weapon_Component.uasset: [Compiler] Message node  Invalid Message Node  has an invalid interface.
+[2026.09.26-13.23.32:867][  5]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\Blueprint\WeaponBlueprints\BP_Weapon_Component.uasset: [Compiler] Could not find a function named "DamageEnemy" in 'BP_Weapon_Component'.
+Make sure 'BP_Weapon_Component' has been compiled for  Invalid Message Node
+[2026.09.26-13.23.32:873][  5]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] The property associated with  Cost  could not be found in '/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C'
+[2026.09.26-13.23.32:875][  5]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] The property associated with  Weapon  could not be found in '/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C'
+[2026.09.26-13.23.32:877][  5]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\Blueprint\Widgets\W_PlayerUI.uasset: [Compiler] The property associated with  Cost  could not be found in '/Game/Blueprint/Widgets/W_PlayerUI.W_PlayerUI_C'
+[2026.09.26-13.23.32:877][  5]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\Blueprint\Widgets\W_PlayerUI.uasset: [Compiler] The property associated with  Weapon  could not be found in '/Game/Blueprint/Widgets/W_PlayerUI.W_PlayerUI_C'
+[2026.09.26-13.23.32:878][  5]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\Blueprint\Widgets\W_PlayerUI.uasset: [Compiler] Failed to find class for pin  Curr Weapon
+[2026.09.26-13.23.32:878][  5]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\Blueprint\Widgets\W_PlayerUI.uasset: [Compiler] ICE SetVariableOnPersistentFrame - No property found.  Curr Weapon
+[2026.09.26-13.23.33:155][  5]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2026.09.26-13.23.51:173][623]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] Message node  Invalid Message Node  has an invalid interface.
+[2026.09.26-13.23.51:181][623]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] Can't connect pins  Object  and  Hit Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2026.09.26-13.23.51:181][623]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] Can't connect pins  As BP Door  and  Target : Object Reference is not compatible with Object Reference.
+[2026.09.26-13.23.51:181][623]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] Can't connect pins  Target  and  As BP Door : Object Reference is not compatible with Object Reference.
+[2026.09.26-13.23.51:181][623]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] Could not find a function named "OpenDoor" in 'BP_FirstPersonCharacter'.
+Make sure 'BP_FirstPersonCharacter' has been compiled for  Invalid Message Node
+[2026.09.26-13.23.51:182][623]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] Can't connect pins  Object  and  Hit Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2026.09.26-13.23.51:182][623]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] Can't connect pins  Hit Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2026.09.26-13.23.51:191][623]LogBlueprint: Warning: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] Could not find a variable named "weapon" in '/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter'.
+Make sure '/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter' has been compiled for  Get weapon
+[2026.09.26-13.23.51:197][623]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] The property associated with  Weapon  could not be found in '/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C'
+[2026.09.26-13.23.51:284][623]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2026.09.26-13.24.07:619][213]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.26-13.24.07:746][213]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2026.09.26-13.24.07:865][213]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2026.09.26-13.24.07:865][213]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2026.09.26-13.24.08:550][213]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2026.09.26-13.24.08:551][213]LogSavePackage: Moving '../../../../../../Users/aherr/Documents/Unreal Projects/ProjectZomb/Saved/BP_FirstPersonCharacterDA72F8EB4EF8150CC1352E9FFE5DB8D3.tmp' to '../../../../../../Users/aherr/Documents/Unreal Projects/ProjectZomb/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2026.09.26-13.24.08:643][213]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.02 sec
+[2026.09.26-13.24.08:770][213]LogContentValidation: Display: Starting to validate 1 assets
+[2026.09.26-13.24.08:770][213]LogContentValidation: Enabled validators:
+[2026.09.26-13.24.08:782][213]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.09.26-13.24.08:782][213]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.26-13.24.08:782][213]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.09.26-13.24.08:783][213]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.09.26-13.24.08:783][213]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.26-13.24.08:783][213]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.26-13.24.08:784][213]AssetCheck: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter Validating asset
+[2026.09.26-13.24.09:955][262]LogBlueprint: Warning: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] Could not find a variable named "weapon" in '/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter'.
+Make sure '/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter' has been compiled for  Get weapon
+[2026.09.26-13.24.09:960][262]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] The property associated with  Weapon  could not be found in '/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C'
+[2026.09.26-13.24.10:053][262]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2026.09.26-13.24.31:035][104]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2026.09.26-13.24.38:937][374]LogSlate: Window 'BP_FirstPersonCharacter' being destroyed
+[2026.09.26-13.24.38:964][374]LogSlate: Window 'BP_FirstPersonCharacter' being destroyed
+[2026.09.26-13.24.38:978][374]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2026.09.26-13.24.38:979][374]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.26-13.24.39:141][374]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2026.09.26-13.24.41:931][496]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.09.26-13.24.42:275][496]BlueprintLog: Warning: Blueprint failed to compile:  BP_Weapon_Component
+[2026.09.26-13.24.42:275][496]BlueprintLog: Warning: Blueprint failed to compile:  W_PlayerUI
+[2026.09.26-13.24.42:276][496]LogPlayLevel: [PlayLevel] Compiling BP_GameInstance before play...
+[2026.09.26-13.24.42:277][496]LogBlueprint: Warning: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\FirstPerson\Blueprints\BP_GameInstance.uasset: [Compiler] Could not find a variable named "activeSpawns" in '/Game/FirstPerson/Blueprints/BP_GameInstance.BP_GameInstance'.
+Make sure '/Game/FirstPerson/Blueprints/BP_GameInstance.BP_GameInstance' has been compiled for  Set activeSpawns
+[2026.09.26-13.24.42:277][496]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\FirstPerson\Blueprints\BP_GameInstance.uasset: [Compiler] Failed to find class for pin  Ref Round Manager
+[2026.09.26-13.24.42:277][496]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\FirstPerson\Blueprints\BP_GameInstance.uasset: [Compiler] Failed to find class for pin  Spawn Points
+[2026.09.26-13.24.42:277][496]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\FirstPerson\Blueprints\BP_GameInstance.uasset: [Compiler] The property associated with  Active Spawns  could not be found in '/Game/FirstPerson/Blueprints/BP_GameInstance.BP_GameInstance_C'
+[2026.09.26-13.24.42:311][496]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2026.09.26-13.24.42:313][496]LogPlayLevel: PlayLevel: Blueprint regeneration took 43 ms (1 blueprints)
+[2026.09.26-13.24.42:313][496]BlueprintLog: Warning: Blueprint failed to compile:  BP_GameInstance
+[2026.09.26-13.24.44:429][496]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/WeaponBlueprints/BP_Weapon_Component.BP_Weapon_Component
+[2026.09.26-13.24.44:429][496]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2026.09.26-13.24.44:697][496]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2026.09.26-13.24.45:751][497]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2026.09.26-13.24.46:814][522]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_GameInstance.BP_GameInstance
+[2026.09.26-13.24.46:814][522]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2026.09.26-13.24.50:625][632]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2026.09.26-13.24.53:696][750]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2026.09.26-13.24.55:325][804]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2026.09.26-13.24.55:325][804]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.26-13.24.55:416][804]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2026.09.26-13.25.33:658][299]LogShaderCompilers: Display: ================================================
+[2026.09.26-13.25.33:659][299]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.09.26-13.25.33:659][299]LogShaderCompilers: Display: Total job queries 3,043, among them cache hits 1,033 (33.95%), DDC hits 1,899 (62.41%), Duplicates 70 (2.30%)
+[2026.09.26-13.25.33:659][299]LogShaderCompilers: Display: Tracking 1,940 distinct input hashes that result in 1,189 distinct outputs (61.29%)
+[2026.09.26-13.25.33:659][299]LogShaderCompilers: Display: RAM used: 10.84 MiB of 819.20 MiB budget. Usage: 1.32%
+[2026.09.26-13.25.33:659][299]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.09.26-13.25.33:659][299]LogShaderCompilers: Display: Shaders Compiled: 41
+[2026.09.26-13.25.33:659][299]LogShaderCompilers: Display: Jobs assigned 41, completed 41 (100%)
+[2026.09.26-13.25.33:659][299]LogShaderCompilers: Display: Average time worker was idle: 64.29 s
+[2026.09.26-13.25.33:659][299]LogShaderCompilers: Display: Time job spent in pending queue: average 1.50 s, longest 4.44 s
+[2026.09.26-13.25.33:659][299]LogShaderCompilers: Display: Job execution time: average 2.44 s, max 9.70 s
+[2026.09.26-13.25.33:659][299]LogShaderCompilers: Display: Job life time (pending + execution): average 3.95 s, max 9.80
+[2026.09.26-13.25.33:659][299]LogShaderCompilers: Display: Shader code size: total 403.621 KiB, numShaders 51, average 7.914 KiB, min 1.727 KiB, max 13.711 KiB
+[2026.09.26-13.25.33:659][299]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 28.53 s
+[2026.09.26-13.25.33:659][299]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2026.09.26-13.25.33:659][299]LogShaderCompilers: Display: Jobs were issued in 41 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.09.26-13.25.33:659][299]LogShaderCompilers: Display: Average processing rate: 1.44 jobs/sec
+[2026.09.26-13.25.33:659][299]LogShaderCompilers: Display: Total thread time: 79.856 s
+[2026.09.26-13.25.33:659][299]LogShaderCompilers: Display: Total thread preprocess time: 61.306 s
+[2026.09.26-13.25.33:659][299]LogShaderCompilers: Display: Percentage time preprocessing: 76.77%
+[2026.09.26-13.25.33:659][299]LogShaderCompilers: Display: Effective parallelization: 2.80 (times faster than compiling all shaders on one thread). Compare with number of workers: 4 - 0.699634
+[2026.09.26-13.25.33:659][299]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.09.26-13.25.33:659][299]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 3.69 sec, max 3.69 sec, min 3.69 sec)
+[2026.09.26-13.25.33:659][299]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    2 times, average 2.70 sec, max 4.74 sec, min 0.67 sec)
+[2026.09.26-13.25.33:659][299]LogShaderCompilers: Display:                                                FAnisotropyPS (compiled    2 times, average 2.46 sec, max 2.53 sec, min 2.39 sec)
+[2026.09.26-13.25.33:659][299]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    7 times, average 2.26 sec, max 7.48 sec, min 1.16 sec)
+[2026.09.26-13.25.33:659][299]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    4 times, average 2.06 sec, max 2.31 sec, min 1.74 sec)
+[2026.09.26-13.25.33:660][299]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.09.26-13.25.33:660][299]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 19.85% of total time (compiled    7 times, average 2.26 sec, max 7.48 sec, min 1.16 sec)
+[2026.09.26-13.25.33:660][299]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 12.20% of total time (compiled    7 times, average 1.39 sec, max 3.87 sec, min 0.84 sec)
+[2026.09.26-13.25.33:660][299]LogShaderCompilers: Display:                                                  FVelocityPS - 10.34% of total time (compiled    4 times, average 2.06 sec, max 2.31 sec, min 1.74 sec)
+[2026.09.26-13.25.33:660][299]LogShaderCompilers: Display:                                                 FDepthOnlyPS - 9.26% of total time (compiled    4 times, average 1.85 sec, max 2.12 sec, min 1.42 sec)
+[2026.09.26-13.25.33:660][299]LogShaderCompilers: Display:                                                 FLumenCardPS - 6.77% of total time (compiled    2 times, average 2.70 sec, max 4.74 sec, min 0.67 sec)
+[2026.09.26-13.25.33:660][299]LogShaderCompilers: Display: === Material stats ===
+[2026.09.26-13.25.33:660][299]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.09.26-13.25.33:660][299]LogShaderCompilers: Display: Materials Translated:    147
+[2026.09.26-13.25.33:660][299]LogShaderCompilers: Display: Material Total Translate Time: 0.23 s
+[2026.09.26-13.25.33:660][299]LogShaderCompilers: Display: Material Translation Only: 0.11 s (47%)
+[2026.09.26-13.25.33:660][299]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.09.26-13.25.33:660][299]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2026.09.26-13.25.33:660][299]LogShaderCompilers: Display: ================================================
+[2026.09.26-13.25.45:025][783]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2026.09.26-13.25.48:158][870]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.26-13.25.48:306][870]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/WeaponBlueprints/BP_Weapon_Component] ([2] browsable assets)...
+[2026.09.26-13.25.48:306][870]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/WeaponBlueprints/BP_Weapon_Component]
+[2026.09.26-13.25.48:359][870]LogSavePackage: Moving output files for package: /Game/Blueprint/WeaponBlueprints/BP_Weapon_Component
+[2026.09.26-13.25.48:360][870]LogSavePackage: Moving '../../../../../../Users/aherr/Documents/Unreal Projects/ProjectZomb/Saved/BP_Weapon_ComponentD4A1529C4CB2C72DD71606804E9A397B.tmp' to '../../../../../../Users/aherr/Documents/Unreal Projects/ProjectZomb/Content/Blueprint/WeaponBlueprints/BP_Weapon_Component.uasset'
+[2026.09.26-13.25.48:379][870]LogFileHelpers: InternalPromptForCheckoutAndSave took 220.812 ms (total: 1.24 sec)
+[2026.09.26-13.25.48:489][870]LogContentValidation: Display: Starting to validate 1 assets
+[2026.09.26-13.25.48:489][870]LogContentValidation: Enabled validators:
+[2026.09.26-13.25.48:489][870]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.09.26-13.25.48:489][870]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.26-13.25.48:489][870]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.09.26-13.25.48:489][870]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.09.26-13.25.48:489][870]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.26-13.25.48:489][870]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.26-13.25.48:490][870]AssetCheck: /Game/Blueprint/WeaponBlueprints/BP_Weapon_Component Validating asset
+[2026.09.26-13.25.57:132][240]LogSlate: Window 'BP_Weapon_Component' being destroyed
+[2026.09.26-13.25.57:140][240]LogSlate: Window 'BP_Weapon_Component' being destroyed
+[2026.09.26-13.25.57:148][240]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2026.09.26-13.25.57:148][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.26-13.25.57:251][240]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2026.09.26-13.25.58:363][287]LogSlate: Window 'Message Log' being destroyed
+[2026.09.26-13.25.58:385][287]LogSlate: Window 'Message Log' being destroyed
+[2026.09.26-13.25.59:451][333]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.09.26-13.25.59:461][333]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.09.26-13.25.59:461][333]BlueprintLog: Warning: Blueprint failed to compile:  W_PlayerUI
+[2026.09.26-13.26.00:732][333]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprint/Widgets/W_PlayerUI.W_PlayerUI
+[2026.09.26-13.26.00:733][333]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2026.09.26-13.26.00:745][333]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2026.09.26-13.26.00:759][333]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2026.09.26-13.26.01:568][333]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2026.09.26-13.26.01:756][333]LogSlate: Took 0.008512 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2026.09.26-13.26.14:031][785]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\Blueprint\Widgets\W_PlayerUI.uasset: [Compiler] Failed to find class for pin  Curr Weapon
+[2026.09.26-13.26.14:031][785]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\Blueprint\Widgets\W_PlayerUI.uasset: [Compiler] ICE SetVariableOnPersistentFrame - No property found.  Curr Weapon
+[2026.09.26-13.26.14:119][785]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2026.09.26-13.26.49:555][352]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.26-13.26.49:701][352]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprint/Widgets/W_PlayerUI] ([2] browsable assets)...
+[2026.09.26-13.26.49:712][352]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprint/Widgets/W_PlayerUI.W_PlayerUI]
+[2026.09.26-13.26.49:712][352]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Widgets/W_PlayerUI]
+[2026.09.26-13.26.49:712][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Widgets/W_PlayerUI" FILE="../../../../../../Users/aherr/Documents/Unreal Projects/ProjectZomb/Content/Blueprint/Widgets/W_PlayerUI.uasset" SILENT=true
+[2026.09.26-13.26.49:755][352]LogSavePackage: Moving output files for package: /Game/Blueprint/Widgets/W_PlayerUI
+[2026.09.26-13.26.49:756][352]LogSavePackage: Moving '../../../../../../Users/aherr/Documents/Unreal Projects/ProjectZomb/Saved/W_PlayerUIDE63F5DA431AB794ABC8D28C9AFD9ABC.tmp' to '../../../../../../Users/aherr/Documents/Unreal Projects/ProjectZomb/Content/Blueprint/Widgets/W_PlayerUI.uasset'
+[2026.09.26-13.26.49:776][352]LogFileHelpers: InternalPromptForCheckoutAndSave took 221.077 ms (total: 1.46 sec)
+[2026.09.26-13.26.49:876][352]LogContentValidation: Display: Starting to validate 1 assets
+[2026.09.26-13.26.49:876][352]LogContentValidation: Enabled validators:
+[2026.09.26-13.26.49:876][352]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.09.26-13.26.49:876][352]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.26-13.26.49:876][352]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.09.26-13.26.49:876][352]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.09.26-13.26.49:876][352]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.26-13.26.49:876][352]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.26-13.26.49:878][352]AssetCheck: /Game/Blueprint/Widgets/W_PlayerUI Validating asset
+[2026.09.26-13.26.54:383][531]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\Blueprint\Widgets\W_PlayerUI.uasset: [Compiler] Failed to find class for pin  Curr Weapon
+[2026.09.26-13.26.54:383][531]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\Blueprint\Widgets\W_PlayerUI.uasset: [Compiler] ICE SetVariableOnPersistentFrame - No property found.  Curr Weapon
+[2026.09.26-13.26.54:466][531]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2026.09.26-13.27.09:060][115]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\Blueprint\Widgets\W_PlayerUI.uasset: [Compiler] Failed to find class for pin  Curr Weapon
+[2026.09.26-13.27.09:060][115]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\Blueprint\Widgets\W_PlayerUI.uasset: [Compiler] ICE SetVariableOnPersistentFrame - No property found.  Curr Weapon
+[2026.09.26-13.27.09:104][115]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2026.09.26-13.27.20:981][395]LogSlate: Window 'Message Log' being destroyed
+[2026.09.26-13.27.20:987][395]LogSlate: Window 'Message Log' being destroyed
+[2026.09.26-13.27.23:652][441]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 671.079407
+[2026.09.26-13.27.23:917][449]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.09.26-13.27.23:917][449]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 671.311462, Update Interval: 327.836548
+[2026.09.26-13.27.54:123][578]Cmd: TRANSACTION UNDO
+[2026.09.26-13.27.54:123][578]LogEditorTransaction: Undo Rename Node
+[2026.09.26-13.27.55:049][596]Cmd: TRANSACTION UNDO
+[2026.09.26-13.27.55:049][596]LogEditorTransaction: Undo Add Node
+[2026.09.26-13.27.55:872][617]Cmd: TRANSACTION UNDO
+[2026.09.26-13.27.55:872][617]LogEditorTransaction: Undo Delete current selection
+[2026.09.26-13.28.13:696][303]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2026.09.26-13.28.14:419][319]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.26-13.28.14:541][319]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprint/Widgets/W_PlayerUI] ([2] browsable assets)...
+[2026.09.26-13.28.14:546][319]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprint/Widgets/W_PlayerUI.W_PlayerUI]
+[2026.09.26-13.28.14:546][319]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/Widgets/W_PlayerUI]
+[2026.09.26-13.28.14:546][319]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint/Widgets/W_PlayerUI" FILE="../../../../../../Users/aherr/Documents/Unreal Projects/ProjectZomb/Content/Blueprint/Widgets/W_PlayerUI.uasset" SILENT=true
+[2026.09.26-13.28.14:596][319]LogSavePackage: Moving output files for package: /Game/Blueprint/Widgets/W_PlayerUI
+[2026.09.26-13.28.14:596][319]LogSavePackage: Moving '../../../../../../Users/aherr/Documents/Unreal Projects/ProjectZomb/Saved/W_PlayerUI2543C5B74DC1BB9CA36C29AC78BF0F1D.tmp' to '../../../../../../Users/aherr/Documents/Unreal Projects/ProjectZomb/Content/Blueprint/Widgets/W_PlayerUI.uasset'
+[2026.09.26-13.28.14:614][319]LogFileHelpers: InternalPromptForCheckoutAndSave took 195.611 ms (total: 1.66 sec)
+[2026.09.26-13.28.14:719][319]LogContentValidation: Display: Starting to validate 1 assets
+[2026.09.26-13.28.14:719][319]LogContentValidation: Enabled validators:
+[2026.09.26-13.28.14:719][319]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.09.26-13.28.14:719][319]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.26-13.28.14:719][319]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.09.26-13.28.14:719][319]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.09.26-13.28.14:719][319]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.26-13.28.14:719][319]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.26-13.28.14:721][319]AssetCheck: /Game/Blueprint/Widgets/W_PlayerUI Validating asset
+[2026.09.26-13.28.17:345][428]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.09.26-13.28.17:357][428]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.09.26-13.28.17:386][428]LogOnline: OSS: Created online subsystem instance for: NULL
+[2026.09.26-13.28.17:387][428]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2026.09.26-13.28.17:389][428]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_LV_Largs
+[2026.09.26-13.28.17:401][428]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012833s)
+[2026.09.26-13.28.17:402][428]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/LV_Largs.LV_Largs to /Game/FirstPerson/Maps/UEDPIE_0_LV_Largs.LV_Largs (0.012930s)
+[2026.09.26-13.28.17:438][428]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2026.09.26-13.28.17:444][428]LogChaosDD: Creating Chaos Debug Draw Scene for world LV_Largs
+[2026.09.26-13.28.17:449][428]LogPlayLevel: PIE: World Init took: (0.005144s)
+[2026.09.26-13.28.17:452][428]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2026.09.26-13.28.17:453][428]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.09.26-13.28.17:453][428]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.09.26-13.28.17:453][428]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.09.26-13.28.17:453][428]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.09.26-13.28.17:453][428]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.09.26-13.28.17:453][428]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.09.26-13.28.17:453][428]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.09.26-13.28.17:453][428]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.09.26-13.28.17:453][428]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.09.26-13.28.17:453][428]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.09.26-13.28.17:453][428]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.09.26-13.28.17:456][428]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.09.26-13.28.17:532][428]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2026.09.26-13.28.17:533][428]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.09.26-13.28.17:533][428]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.09.26-13.28.17:533][428]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.09.26-13.28.17:534][428]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2026.09.26-13.28.17:534][428]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2026.09.26-13.28.17:538][428]LogInit: FAudioDevice initialized with ID 2.
+[2026.09.26-13.28.17:538][428]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2026.09.26-13.28.17:538][428]LogAudio: Display: Audio Device (ID: 2) registered with world 'LV_Largs'.
+[2026.09.26-13.28.17:538][428]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2026.09.26-13.28.17:538][428]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2026.09.26-13.28.17:568][428]LogStreaming: Display: FlushAsyncLoading(526): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.26-13.28.17:589][428]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.09.26-13.28.17:595][428]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_LV_Largs.LV_Largs up for play (max tick rate 60) at 2026.09.26-14.28.17
+[2026.09.26-13.28.17:596][428]LogWorld: Bringing up level for play took: 0.005501
+[2026.09.26-13.28.17:601][428]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2026.09.26-13.28.17:799][428]PIE: Server logged in
+[2026.09.26-13.28.17:803][428]PIE: Play in editor total start time 0.446 seconds.
+[2026.09.26-13.28.30:742][954]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.09.26-13.28.30:742][954]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_LV_Largs
+[2026.09.26-13.28.30:743][954]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2026.09.26-13.28.30:744][954]LogWorld: UWorld::CleanupWorld for LV_Largs, bSessionEnded=true, bCleanupResources=true
+[2026.09.26-13.28.30:746][954]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.26-13.28.30:749][954]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.09.26-13.28.30:756][954]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.26-13.28.30:792][954]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.09.26-13.28.30:793][954]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2026.09.26-13.28.30:794][954]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=4
+[2026.09.26-13.28.30:797][954]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
+[2026.09.26-13.28.30:806][954]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.09.26-13.28.30:815][954]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2026.09.26-13.28.30:858][955]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2026.09.26-13.28.56:416][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2026.09.26-13.28.56:464][ 62]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Maps/LV_Largs_Auto1
+[2026.09.26-13.28.56:465][ 62]LogSavePackage: Moving '../../../../../../Users/aherr/Documents/Unreal Projects/ProjectZomb/Saved/LV_Largs_Auto1DE796E42417419B09F742483C1B40B42.tmp' to '../../../../../../Users/aherr/Documents/Unreal Projects/ProjectZomb/Saved/Autosaves/Game/FirstPerson/Maps/LV_Largs_Auto1.umap'
+[2026.09.26-13.28.56:469][ 62]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/LV_Largs' took 0.089
+[2026.09.26-13.28.56:469][ 62]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.089
+[2026.09.26-13.28.56:484][ 62]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Blueprints/BP_GameInstance] ([2] browsable assets)...
+[2026.09.26-13.28.56:484][ 62]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_GameInstance]
+[2026.09.26-13.28.56:498][ 62]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/BP_GameInstance_Auto1
+[2026.09.26-13.28.56:498][ 62]LogSavePackage: Moving '../../../../../../Users/aherr/Documents/Unreal Projects/ProjectZomb/Saved/BP_GameInstance_Auto131E924C242248C9CC069E59059EDB591.tmp' to '../../../../../../Users/aherr/Documents/Unreal Projects/ProjectZomb/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_GameInstance_Auto1.uasset'
+[2026.09.26-13.28.56:499][ 62]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2026.09.26-13.28.56:675][ 62]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2026.09.26-13.28.56:675][ 62]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2026.09.26-13.28.56:758][ 62]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto1
+[2026.09.26-13.28.56:758][ 62]LogSavePackage: Moving '../../../../../../Users/aherr/Documents/Unreal Projects/ProjectZomb/Saved/BP_FirstPersonCharacter_Auto1BBC07AEA48D0AED8C54D6EBE922BB395.tmp' to '../../../../../../Users/aherr/Documents/Unreal Projects/ProjectZomb/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto1.uasset'
+[2026.09.26-13.28.56:760][ 62]LogFileHelpers: Auto-saving content packages took 0.277
+[2026.09.26-13.29.14:718][138]LogSlate: Window 'W_PlayerUI' being destroyed
+[2026.09.26-13.29.14:777][138]LogSlate: Window 'W_PlayerUI' being destroyed
+[2026.09.26-13.29.14:812][138]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2026.09.26-13.29.14:812][138]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.26-13.29.14:828][138]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2026.09.26-13.29.14:828][138]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.26-13.29.15:142][138]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2026.09.26-13.29.17:581][201]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2026.09.26-13.29.17:581][201]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2026.09.26-13.29.41:276][109]LogStreaming: Display: FlushAsyncLoading(527): 1 QueuedPackages, 0 AsyncPackages
+[2026.09.26-13.29.41:295][109]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\Blueprint\WeaponBlueprints\BP_Projectile.uasset: [Compiler] Message node  Invalid Message Node  has an invalid interface.
+[2026.09.26-13.29.41:295][109]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\Blueprint\WeaponBlueprints\BP_Projectile.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Invalid Message Node . Please refresh node or break links to remove pin.
+[2026.09.26-13.29.41:295][109]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\Blueprint\WeaponBlueprints\BP_Projectile.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Invalid Message Node . Please refresh node or break links to remove pin.
+[2026.09.26-13.29.41:296][109]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\Blueprint\WeaponBlueprints\BP_Projectile.uasset: [Compiler] In use pin  Target  no longer exists on node  Invalid Message Node . Please refresh node or break links to remove pin.
+[2026.09.26-13.29.41:296][109]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\Blueprint\WeaponBlueprints\BP_Projectile.uasset: [Compiler] In use pin  Damage Done  no longer exists on node  Invalid Message Node . Please refresh node or break links to remove pin.
+[2026.09.26-13.29.41:296][109]LogBlueprint: Error: [AssetLog] C:\Users\aherr\Documents\Unreal Projects\ProjectZomb\Content\Blueprint\WeaponBlueprints\BP_Projectile.uasset: [Compiler] Could not find a function named "DamageEnemy" in 'BP_Projectile'.
+Make sure 'BP_Projectile' has been compiled for  Invalid Message Node
+[2026.09.26-13.29.41:299][109]LogStaticMesh: Display: Building static mesh FirstPersonProjectileMesh (Required Memory Estimate: 0.756426 MB)...
+[2026.09.26-13.29.41:322][109]LogStaticMesh: Built static mesh [0.02s] /Game/FPWeapon/Mesh/FirstPersonProjectileMesh.FirstPersonProjectileMesh
+[2026.09.26-13.29.41:372][109]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2026.09.26-13.29.41:588][109]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_16
+[2026.09.26-13.29.43:847][109]LogSlate: Window 'Delete Assets' being destroyed
+[2026.09.26-13.29.44:983][109]LogMeshUtilities: Finished distance field build in 1.0s - 63x63x63 sparse distance field, 0.4Mb total, 0.0Mb always loaded, 84% occupied, 0 triangles, FirstPersonProjectileMesh
+[2026.09.26-13.29.45:031][109]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2026.09.26-13.29.45:031][109]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.26-13.29.45:072][109]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2026.09.26-13.29.45:106][109]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2026.09.26-13.29.45:139][109]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2026.09.26-13.29.45:177][109]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2026.09.26-13.29.45:281][109]LoadErrors: Warning: While trying to load package /Game/Blueprint/WeaponBlueprints/BP_Projectile, a dependent package /Game/Blueprint/EnemyBlueprints/BPI_Enemy was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Game/Blueprint/EnemyBlueprints/BPI_Enemy has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Users/aherr/Documents/Unreal Projects/ProjectZomb/Content/Blueprint/EnemyBlueprints/BPI_Enemy'. Perhaps it has been deleted or was not synced?
+
+[2026.09.26-13.29.47:548][205]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.09.26-13.29.47:744][205]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2026.09.26-13.29.47:782][205]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/LV_Largs
+[2026.09.26-13.29.47:783][205]LogSavePackage: Moving '../../../../../../Users/aherr/Documents/Unreal Projects/ProjectZomb/Saved/LV_LargsFCA309574D8ABD8FBE885B80BDEFD471.tmp' to '../../../../../../Users/aherr/Documents/Unreal Projects/ProjectZomb/Content/FirstPerson/Maps/LV_Largs.umap'
+[2026.09.26-13.29.47:901][205]LogFileHelpers: Saving map 'LV_Largs' took 0.230
+[2026.09.26-13.29.47:918][205]LogFileHelpers: InternalPromptForCheckoutAndSave took 369.150 ms (total: 2.03 sec)
+[2026.09.26-13.29.48:029][205]LogContentValidation: Display: Starting to validate 1 assets
+[2026.09.26-13.29.48:029][205]LogContentValidation: Enabled validators:
+[2026.09.26-13.29.48:029][205]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.09.26-13.29.48:030][205]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.09.26-13.29.48:030][205]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.09.26-13.29.48:030][205]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.09.26-13.29.48:030][205]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.09.26-13.29.48:030][205]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.09.26-13.29.48:030][205]AssetCheck: /Game/FirstPerson/Maps/LV_Largs Validating asset
+[2026.09.26-13.29.48:553][229]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.09.26-13.29.48:565][229]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.09.26-13.29.48:565][229]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_LV_Largs
+[2026.09.26-13.29.48:577][229]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011080s)
+[2026.09.26-13.29.48:577][229]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/LV_Largs.LV_Largs to /Game/FirstPerson/Maps/UEDPIE_0_LV_Largs.LV_Largs (0.011156s)
+[2026.09.26-13.29.48:612][229]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2026.09.26-13.29.48:613][229]LogChaosDD: Creating Chaos Debug Draw Scene for world LV_Largs
+[2026.09.26-13.29.48:616][229]LogPlayLevel: PIE: World Init took: (0.002284s)
+[2026.09.26-13.29.48:617][229]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2026.09.26-13.29.48:617][229]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.09.26-13.29.48:617][229]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.09.26-13.29.48:617][229]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.09.26-13.29.48:617][229]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.09.26-13.29.48:617][229]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.09.26-13.29.48:617][229]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.09.26-13.29.48:617][229]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.09.26-13.29.48:617][229]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.09.26-13.29.48:617][229]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.09.26-13.29.48:617][229]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.09.26-13.29.48:617][229]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.09.26-13.29.48:621][229]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.09.26-13.29.48:697][229]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek High Definition Audio)
+[2026.09.26-13.29.48:697][229]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.09.26-13.29.48:697][229]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.09.26-13.29.48:697][229]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.09.26-13.29.48:698][229]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2026.09.26-13.29.48:698][229]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2026.09.26-13.29.48:701][229]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2026.09.26-13.29.48:702][229]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2026.09.26-13.29.48:702][229]LogInit: FAudioDevice initialized with ID 3.
+[2026.09.26-13.29.48:702][229]LogAudio: Display: Audio Device (ID: 3) registered with world 'LV_Largs'.
+[2026.09.26-13.29.48:702][229]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2026.09.26-13.29.48:707][229]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2026.09.26-13.29.48:712][229]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_LV_Largs.LV_Largs up for play (max tick rate 60) at 2026.09.26-14.29.48
+[2026.09.26-13.29.48:712][229]LogWorld: Bringing up level for play took: 0.004509
+[2026.09.26-13.29.48:716][229]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2026.09.26-13.29.48:722][229]PIE: Server logged in
+[2026.09.26-13.29.48:725][229]PIE: Play in editor total start time 0.16 seconds.
+[2026.09.26-13.29.51:685][350]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.09.26-13.29.51:685][350]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_LV_Largs
+[2026.09.26-13.29.51:685][350]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2026.09.26-13.29.51:685][350]LogWorld: UWorld::CleanupWorld for LV_Largs, bSessionEnded=true, bCleanupResources=true
+[2026.09.26-13.29.51:687][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.26-13.29.51:688][350]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.09.26-13.29.51:694][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.26-13.29.51:727][350]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.09.26-13.29.51:727][350]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2026.09.26-13.29.51:728][350]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=4
+[2026.09.26-13.29.51:730][350]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=2
+[2026.09.26-13.29.51:743][350]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2026.09.26-13.29.51:782][351]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2026.09.26-13.29.55:115][505]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint/WeaponBlueprints/BP_Weapon_Component.BP_Weapon_Component
+[2026.09.26-13.29.55:116][505]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_17
+[2026.09.26-13.30.56:643][483]LogSlate: Window 'BP_Weapon_Component' being destroyed
+[2026.09.26-13.30.56:650][483]LogSlate: Window 'BP_Weapon_Component' being destroyed
+[2026.09.26-13.30.56:659][483]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2026.09.26-13.30.56:659][483]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.26-13.30.56:749][483]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2026.09.26-13.30.56:749][483]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.09.26-13.30.56:886][483]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
