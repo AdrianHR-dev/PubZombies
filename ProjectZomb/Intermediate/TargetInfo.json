@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ProjectZomb",
+			"Path": "..\\Source\\ProjectZomb.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ProjectZombEditor",
+			"Path": "..\\Source\\ProjectZombEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
