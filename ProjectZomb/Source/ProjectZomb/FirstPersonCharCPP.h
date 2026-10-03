@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Components/TimelineComponent.h"
 #include "GameFramework/Character.h"
 #include "FirstPersonCharCPP.generated.h"
 
@@ -15,17 +16,7 @@ public:
 	// Sets default values for this character's properties
 	AFirstPersonCharCPP();
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite) float m_health;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite) float m_maxHealth;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite) float m_startHealth;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite) int m_score;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite) bool m_takingDamage;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite) bool m_ads;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite) FVector m_interactRange;
 
-	UFUNCTION(BlueprintCallable) void m_TakeDamage();
-	UFUNCTION(BlueprintCallable) void m_Heal();
-	UFUNCTION(BlueprintCallable) void m_BuyWallWeapon();
 	//UPROPERTY(EditAnywhere, BlueprintReadWrite) TArray<ECollisionChannel> m_collTypes;
 
 protected:
@@ -33,6 +24,18 @@ protected:
 	virtual void BeginPlay() override;
 
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite) float m_health;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite) float m_maxHealth;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite) float m_startHealth;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite) int m_score;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite) bool m_takingDamage;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite) bool m_ads;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite) FVector m_interactRange;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite) UTimelineComponent* m_healTimeline;
+
+	UFUNCTION(BlueprintCallable) void m_TakeDamage();
+	UFUNCTION(BlueprintCallable) void m_Heal();
+	UFUNCTION(BlueprintCallable) void m_BuyWallWeapon();
 
 public:	
 	// Called every frame

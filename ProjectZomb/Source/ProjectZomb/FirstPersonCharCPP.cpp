@@ -9,6 +9,8 @@ AFirstPersonCharCPP::AFirstPersonCharCPP()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	m_healTimeline = CreateDefaultSubobject<UTimelineComponent>(TEXT("TimelineComponent"));
+
 }
 
 // Called when the game starts or when spawned
@@ -34,7 +36,7 @@ void AFirstPersonCharCPP::SetupPlayerInputComponent(UInputComponent* PlayerInput
 
 void AFirstPersonCharCPP::m_TakeDamage()
 {
-
+	
 }
 
 void AFirstPersonCharCPP::m_Heal()

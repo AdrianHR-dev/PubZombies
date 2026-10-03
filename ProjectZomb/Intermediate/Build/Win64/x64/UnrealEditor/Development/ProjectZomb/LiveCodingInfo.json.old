@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ProjectZomb.gen.cpp.obj": [
+			"FirstPersonCharCPP.gen.cpp.obj",
+			"ProjectZomb.init.gen.cpp.obj",
+			"WeaponCompCPP.gen.cpp.obj"
+		]
+	}
+}

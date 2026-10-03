@@ -17,7 +17,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class AFirstPersonCharCPP ******************************************************
-#define FID_Users_aherr_Documents_Github_PubZombies_ProjectZomb_Source_ProjectZomb_FirstPersonCharCPP_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Users_aherr_Documents_Github_PubZombies_ProjectZomb_Source_ProjectZomb_FirstPersonCharCPP_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execm_BuyWallWeapon); \
 	DECLARE_FUNCTION(execm_Heal); \
 	DECLARE_FUNCTION(execm_TakeDamage);
@@ -25,7 +25,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 PROJECTZOMB_API UClass* Z_Construct_UClass_AFirstPersonCharCPP_NoRegister();
 
-#define FID_Users_aherr_Documents_Github_PubZombies_ProjectZomb_Source_ProjectZomb_FirstPersonCharCPP_h_12_INCLASS_NO_PURE_DECLS \
+#define FID_Users_aherr_Documents_Github_PubZombies_ProjectZomb_Source_ProjectZomb_FirstPersonCharCPP_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAFirstPersonCharCPP(); \
 	friend struct Z_Construct_UClass_AFirstPersonCharCPP_Statics; \
@@ -36,7 +36,7 @@ public: \
 	DECLARE_SERIALIZER(AFirstPersonCharCPP)
 
 
-#define FID_Users_aherr_Documents_Github_PubZombies_ProjectZomb_Source_ProjectZomb_FirstPersonCharCPP_h_12_ENHANCED_CONSTRUCTORS \
+#define FID_Users_aherr_Documents_Github_PubZombies_ProjectZomb_Source_ProjectZomb_FirstPersonCharCPP_h_13_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	AFirstPersonCharCPP(AFirstPersonCharCPP&&) = delete; \
 	AFirstPersonCharCPP(const AFirstPersonCharCPP&) = delete; \
@@ -46,13 +46,13 @@ public: \
 	NO_API virtual ~AFirstPersonCharCPP();
 
 
-#define FID_Users_aherr_Documents_Github_PubZombies_ProjectZomb_Source_ProjectZomb_FirstPersonCharCPP_h_9_PROLOG
-#define FID_Users_aherr_Documents_Github_PubZombies_ProjectZomb_Source_ProjectZomb_FirstPersonCharCPP_h_12_GENERATED_BODY \
+#define FID_Users_aherr_Documents_Github_PubZombies_ProjectZomb_Source_ProjectZomb_FirstPersonCharCPP_h_10_PROLOG
+#define FID_Users_aherr_Documents_Github_PubZombies_ProjectZomb_Source_ProjectZomb_FirstPersonCharCPP_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_aherr_Documents_Github_PubZombies_ProjectZomb_Source_ProjectZomb_FirstPersonCharCPP_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_aherr_Documents_Github_PubZombies_ProjectZomb_Source_ProjectZomb_FirstPersonCharCPP_h_12_INCLASS_NO_PURE_DECLS \
-	FID_Users_aherr_Documents_Github_PubZombies_ProjectZomb_Source_ProjectZomb_FirstPersonCharCPP_h_12_ENHANCED_CONSTRUCTORS \
+	FID_Users_aherr_Documents_Github_PubZombies_ProjectZomb_Source_ProjectZomb_FirstPersonCharCPP_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_aherr_Documents_Github_PubZombies_ProjectZomb_Source_ProjectZomb_FirstPersonCharCPP_h_13_INCLASS_NO_PURE_DECLS \
+	FID_Users_aherr_Documents_Github_PubZombies_ProjectZomb_Source_ProjectZomb_FirstPersonCharCPP_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

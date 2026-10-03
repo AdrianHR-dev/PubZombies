@@ -14,6 +14,7 @@ void EmptyLinkFunctionForGeneratedCodeFirstPersonCharCPP() {}
 // ********** Begin Cross Module References ********************************************************
 COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 ENGINE_API UClass* Z_Construct_UClass_ACharacter();
+ENGINE_API UClass* Z_Construct_UClass_UTimelineComponent_NoRegister();
 PROJECTZOMB_API UClass* Z_Construct_UClass_AFirstPersonCharCPP();
 PROJECTZOMB_API UClass* Z_Construct_UClass_AFirstPersonCharCPP_NoRegister();
 UPackage* Z_Construct_UPackage__Script_ProjectZomb();
@@ -29,7 +30,7 @@ struct Z_Construct_UFunction_AFirstPersonCharCPP_m_BuyWallWeapon_Statics
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AFirstPersonCharCPP_m_BuyWallWeapon_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_AFirstPersonCharCPP, nullptr, "m_BuyWallWeapon", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AFirstPersonCharCPP_m_BuyWallWeapon_Statics::Function_MetaDataParams), Z_Construct_UFunction_AFirstPersonCharCPP_m_BuyWallWeapon_Statics::Function_MetaDataParams)},  };
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AFirstPersonCharCPP_m_BuyWallWeapon_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_AFirstPersonCharCPP, nullptr, "m_BuyWallWeapon", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04080401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AFirstPersonCharCPP_m_BuyWallWeapon_Statics::Function_MetaDataParams), Z_Construct_UFunction_AFirstPersonCharCPP_m_BuyWallWeapon_Statics::Function_MetaDataParams)},  };
 UFunction* Z_Construct_UFunction_AFirstPersonCharCPP_m_BuyWallWeapon()
 {
 	static UFunction* ReturnFunction = nullptr;
@@ -58,7 +59,7 @@ struct Z_Construct_UFunction_AFirstPersonCharCPP_m_Heal_Statics
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AFirstPersonCharCPP_m_Heal_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_AFirstPersonCharCPP, nullptr, "m_Heal", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AFirstPersonCharCPP_m_Heal_Statics::Function_MetaDataParams), Z_Construct_UFunction_AFirstPersonCharCPP_m_Heal_Statics::Function_MetaDataParams)},  };
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AFirstPersonCharCPP_m_Heal_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_AFirstPersonCharCPP, nullptr, "m_Heal", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04080401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AFirstPersonCharCPP_m_Heal_Statics::Function_MetaDataParams), Z_Construct_UFunction_AFirstPersonCharCPP_m_Heal_Statics::Function_MetaDataParams)},  };
 UFunction* Z_Construct_UFunction_AFirstPersonCharCPP_m_Heal()
 {
 	static UFunction* ReturnFunction = nullptr;
@@ -87,7 +88,7 @@ struct Z_Construct_UFunction_AFirstPersonCharCPP_m_TakeDamage_Statics
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AFirstPersonCharCPP_m_TakeDamage_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_AFirstPersonCharCPP, nullptr, "m_TakeDamage", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AFirstPersonCharCPP_m_TakeDamage_Statics::Function_MetaDataParams), Z_Construct_UFunction_AFirstPersonCharCPP_m_TakeDamage_Statics::Function_MetaDataParams)},  };
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AFirstPersonCharCPP_m_TakeDamage_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_AFirstPersonCharCPP, nullptr, "m_TakeDamage", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04080401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AFirstPersonCharCPP_m_TakeDamage_Statics::Function_MetaDataParams), Z_Construct_UFunction_AFirstPersonCharCPP_m_TakeDamage_Statics::Function_MetaDataParams)},  };
 UFunction* Z_Construct_UFunction_AFirstPersonCharCPP_m_TakeDamage()
 {
 	static UFunction* ReturnFunction = nullptr;
@@ -182,6 +183,11 @@ struct Z_Construct_UClass_AFirstPersonCharCPP_Statics
 		{ "Category", "FirstPersonCharCPP" },
 		{ "ModuleRelativePath", "FirstPersonCharCPP.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_m_healTimeline_MetaData[] = {
+		{ "Category", "FirstPersonCharCPP" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "FirstPersonCharCPP.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_m_health;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_m_maxHealth;
@@ -192,12 +198,13 @@ struct Z_Construct_UClass_AFirstPersonCharCPP_Statics
 	static void NewProp_m_ads_SetBit(void* Obj);
 	static const UECodeGen_Private::FBoolPropertyParams NewProp_m_ads;
 	static const UECodeGen_Private::FStructPropertyParams NewProp_m_interactRange;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_m_healTimeline;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_AFirstPersonCharCPP_m_BuyWallWeapon, "m_BuyWallWeapon" }, // 1533211259
-		{ &Z_Construct_UFunction_AFirstPersonCharCPP_m_Heal, "m_Heal" }, // 4079994890
-		{ &Z_Construct_UFunction_AFirstPersonCharCPP_m_TakeDamage, "m_TakeDamage" }, // 1647671183
+		{ &Z_Construct_UFunction_AFirstPersonCharCPP_m_BuyWallWeapon, "m_BuyWallWeapon" }, // 1808973053
+		{ &Z_Construct_UFunction_AFirstPersonCharCPP_m_Heal, "m_Heal" }, // 292006972
+		{ &Z_Construct_UFunction_AFirstPersonCharCPP_m_TakeDamage, "m_TakeDamage" }, // 242946228
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -205,21 +212,22 @@ struct Z_Construct_UClass_AFirstPersonCharCPP_Statics
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
-const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AFirstPersonCharCPP_Statics::NewProp_m_health = { "m_health", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFirstPersonCharCPP, m_health), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_m_health_MetaData), NewProp_m_health_MetaData) };
-const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AFirstPersonCharCPP_Statics::NewProp_m_maxHealth = { "m_maxHealth", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFirstPersonCharCPP, m_maxHealth), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_m_maxHealth_MetaData), NewProp_m_maxHealth_MetaData) };
-const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AFirstPersonCharCPP_Statics::NewProp_m_startHealth = { "m_startHealth", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFirstPersonCharCPP, m_startHealth), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_m_startHealth_MetaData), NewProp_m_startHealth_MetaData) };
-const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AFirstPersonCharCPP_Statics::NewProp_m_score = { "m_score", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFirstPersonCharCPP, m_score), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_m_score_MetaData), NewProp_m_score_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AFirstPersonCharCPP_Statics::NewProp_m_health = { "m_health", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFirstPersonCharCPP, m_health), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_m_health_MetaData), NewProp_m_health_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AFirstPersonCharCPP_Statics::NewProp_m_maxHealth = { "m_maxHealth", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFirstPersonCharCPP, m_maxHealth), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_m_maxHealth_MetaData), NewProp_m_maxHealth_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AFirstPersonCharCPP_Statics::NewProp_m_startHealth = { "m_startHealth", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFirstPersonCharCPP, m_startHealth), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_m_startHealth_MetaData), NewProp_m_startHealth_MetaData) };
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AFirstPersonCharCPP_Statics::NewProp_m_score = { "m_score", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFirstPersonCharCPP, m_score), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_m_score_MetaData), NewProp_m_score_MetaData) };
 void Z_Construct_UClass_AFirstPersonCharCPP_Statics::NewProp_m_takingDamage_SetBit(void* Obj)
 {
 	((AFirstPersonCharCPP*)Obj)->m_takingDamage = 1;
 }
-const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AFirstPersonCharCPP_Statics::NewProp_m_takingDamage = { "m_takingDamage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(AFirstPersonCharCPP), &Z_Construct_UClass_AFirstPersonCharCPP_Statics::NewProp_m_takingDamage_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_m_takingDamage_MetaData), NewProp_m_takingDamage_MetaData) };
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AFirstPersonCharCPP_Statics::NewProp_m_takingDamage = { "m_takingDamage", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(AFirstPersonCharCPP), &Z_Construct_UClass_AFirstPersonCharCPP_Statics::NewProp_m_takingDamage_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_m_takingDamage_MetaData), NewProp_m_takingDamage_MetaData) };
 void Z_Construct_UClass_AFirstPersonCharCPP_Statics::NewProp_m_ads_SetBit(void* Obj)
 {
 	((AFirstPersonCharCPP*)Obj)->m_ads = 1;
 }
-const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AFirstPersonCharCPP_Statics::NewProp_m_ads = { "m_ads", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(AFirstPersonCharCPP), &Z_Construct_UClass_AFirstPersonCharCPP_Statics::NewProp_m_ads_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_m_ads_MetaData), NewProp_m_ads_MetaData) };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AFirstPersonCharCPP_Statics::NewProp_m_interactRange = { "m_interactRange", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFirstPersonCharCPP, m_interactRange), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_m_interactRange_MetaData), NewProp_m_interactRange_MetaData) };
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AFirstPersonCharCPP_Statics::NewProp_m_ads = { "m_ads", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(AFirstPersonCharCPP), &Z_Construct_UClass_AFirstPersonCharCPP_Statics::NewProp_m_ads_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_m_ads_MetaData), NewProp_m_ads_MetaData) };
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AFirstPersonCharCPP_Statics::NewProp_m_interactRange = { "m_interactRange", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFirstPersonCharCPP, m_interactRange), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_m_interactRange_MetaData), NewProp_m_interactRange_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFirstPersonCharCPP_Statics::NewProp_m_healTimeline = { "m_healTimeline", nullptr, (EPropertyFlags)0x002008000008000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFirstPersonCharCPP, m_healTimeline), Z_Construct_UClass_UTimelineComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_m_healTimeline_MetaData), NewProp_m_healTimeline_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFirstPersonCharCPP_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharCPP_Statics::NewProp_m_health,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharCPP_Statics::NewProp_m_maxHealth,
@@ -228,6 +236,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFirstPer
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharCPP_Statics::NewProp_m_takingDamage,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharCPP_Statics::NewProp_m_ads,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharCPP_Statics::NewProp_m_interactRange,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonCharCPP_Statics::NewProp_m_healTimeline,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AFirstPersonCharCPP_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_AFirstPersonCharCPP_Statics::DependentSingletons[])() = {
@@ -266,10 +275,10 @@ AFirstPersonCharCPP::~AFirstPersonCharCPP() {}
 struct Z_CompiledInDeferFile_FID_Users_aherr_Documents_Github_PubZombies_ProjectZomb_Source_ProjectZomb_FirstPersonCharCPP_h__Script_ProjectZomb_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AFirstPersonCharCPP, AFirstPersonCharCPP::StaticClass, TEXT("AFirstPersonCharCPP"), &Z_Registration_Info_UClass_AFirstPersonCharCPP, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFirstPersonCharCPP), 2665224846U) },
+		{ Z_Construct_UClass_AFirstPersonCharCPP, AFirstPersonCharCPP::StaticClass, TEXT("AFirstPersonCharCPP"), &Z_Registration_Info_UClass_AFirstPersonCharCPP, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFirstPersonCharCPP), 172006157U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_aherr_Documents_Github_PubZombies_ProjectZomb_Source_ProjectZomb_FirstPersonCharCPP_h__Script_ProjectZomb_3562944408(TEXT("/Script/ProjectZomb"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_aherr_Documents_Github_PubZombies_ProjectZomb_Source_ProjectZomb_FirstPersonCharCPP_h__Script_ProjectZomb_963916412(TEXT("/Script/ProjectZomb"),
 	Z_CompiledInDeferFile_FID_Users_aherr_Documents_Github_PubZombies_ProjectZomb_Source_ProjectZomb_FirstPersonCharCPP_h__Script_ProjectZomb_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_aherr_Documents_Github_PubZombies_ProjectZomb_Source_ProjectZomb_FirstPersonCharCPP_h__Script_ProjectZomb_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

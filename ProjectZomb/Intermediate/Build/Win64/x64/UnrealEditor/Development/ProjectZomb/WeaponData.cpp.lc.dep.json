@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\aherr\\documents\\github\\pubzombies\\projectzomb\\source\\projectzomb\\weapondata.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\aherr\\documents\\github\\pubzombies\\projectzomb\\intermediate\\build\\win64\\x64\\projectzombeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "c:\\users\\aherr\\documents\\github\\pubzombies\\projectzomb\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\projectzomb\\definitions.projectzomb.h",
+            "c:\\users\\aherr\\documents\\github\\pubzombies\\projectzomb\\source\\projectzomb\\weapondata.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
